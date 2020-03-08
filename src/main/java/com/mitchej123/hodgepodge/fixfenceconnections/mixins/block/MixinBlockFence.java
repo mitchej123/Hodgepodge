@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.Overwrite;
 public class MixinBlockFence {
     /**
      * @author mitchej123 & leagris
-     * @reason Backported Fix fence connections with extra fences, etc
+     * @reason Fix fence connections with extra fences, etc
      */
     @Overwrite()
     public boolean canConnectFenceTo(IBlockAccess world, int x, int y, int z) {
